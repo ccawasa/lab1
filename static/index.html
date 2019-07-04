@@ -4,7 +4,7 @@
 <head>
 	<title>HCI Project Portfolio</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- this is a comment in HTML -->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -13,17 +13,82 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
+<style>
+body {font-family: "Lato", sans-serif;}
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+#Cartoons {background-color:#3366ff;}
+#Anime {background-color:#33cccc;}
+#Games {background-color:#ff5050;}
+#Movies {background-color:#33cc33;}
+</style>
 
 <body>
-	
-	<div>
-		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
-		<!-- p means paragraph -->
-		<div>
-			<h1>Christian Mark Cawasa - EMC 181</h1>
-			<p>New Cartoons &middot; New Games &middot; New Animes &middot; New movies</p>
-		</div>
+	<div id="Cartoons" class="tabcontent">
+	<h1>Cartoons</h1>
+	<p>Cartoons is the capital city of England.</p>
+	</div>
 
+	<div id="Anime" class="tabcontent">
+	<h1>Anime</h1>
+	<p>Anime is the capital of France.</p> 
+	</div>
+
+	<div id="Games" class="tabcontent">
+	<h1>Games</h1>
+	<p>Games is the capital of Japan.</p>
+	</div>
+
+	<div id="Movies" class="tabcontent">
+	<h1>Movies</h1>
+	<p>Movies is the capital of Norway.</p>
+	</div>
+
+	<button class="tablink" onclick="openCity('Cartoons', this, '#3366ff')" id="defaultOpen">Cartoons</button>
+	<button class="tablink" onclick="openCity('Anime', this, '#33cccc')">Anime</button>
+	<button class="tablink" onclick="openCity('Games', this, '#ff5050')">Games</button>
+	<button class="tablink" onclick="openCity('Movies', this, '#33cc33')">Movies</button>
+	<script>
+	function openCity(cityName,elmnt,color) {
+	var i, tabcontent, tablinks;
+	tabcontent = document.getElementsByClassName("tabcontent");
+	for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+	}
+	tablinks = document.getElementsByClassName("tablink");
+	for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+	}
+	document.getElementById(cityName).style.display = "block";
+	elmnt.style.backgroundColor = color;
+
+	}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
 
 		<h4></h4>
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
@@ -78,5 +143,11 @@
 			</a><br><br>
 		</div>
 	</div>
+	<div>
+		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
+		<!-- p means paragraph -->
+		<div>
+			<h1 align="center">Christian Mark Cawasa - EMC 181</h1>
+		</div>
 </body>
 </html>
