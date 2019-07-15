@@ -1,153 +1,46 @@
-<!doctype html>
-
-<html>
+<!DOCTYPE html>
+<html >
 <head>
-	<title>HCI Project Portfolio</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- this is a comment in HTML -->
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+  <meta charset="UTF-8">
+  <title>Christian Mark Cawasa</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" href="css/style1.css">
+
+  
 </head>
-<style>
-body {font-family: "Lato", sans-serif;}
-
-.tablink {
-  background-color: #555;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
-}
-
-.tablink:hover {
-  background-color: #777;
-}
-
-/* Style the tab content */
-.tabcontent {
-  color: white;
-  display: none;
-  padding: 50px;
-  text-align: center;
-}
-
-#Cartoons {background-color:#3366ff;}
-#Anime {background-color:#33cccc;}
-#Games {background-color:#ff5050;}
-#Movies {background-color:#33cc33;}
-</style>
 
 <body>
-	<div id="Cartoons" class="tabcontent">
-	<h1>Cartoons</h1>
-	<p>Cartoons is the capital city of England.</p>
-	</div>
+  <div class="header">
+  <div class="sides">
+    <a href="#" class="logo">Personal website</a>
+  </div>
+  <div class="sides"> <a href="#" class="menu">-</a></div>
+  <div class="info">
+  <h4><a href="#category">EMC 181</a></h4>
+    <h1>GAMES ANIME CARTOONS MOVIES</h1>
+    <div class="meta">
+      <a  href="https://facebook.com/markcawasa" target="_b" class="author"></a><br>
+      By <a href="https://facebook.com/markcawasa" target="_b">Christian Mark Cawasa</a>
+    </div>
+  </div>
+</div>
+<div class="container text-center">
+    
+  <a class="rainbow Main-rainbow">Games<a/>
+  <a class="rainbow Main-rainbow">Anime<a/>
+  <a class="rainbow Main-rainbow">Movies<a/>
+  <a class="rainbow Main-rainbow">Cartoons<a/>
 
-	<div id="Anime" class="tabcontent">
-	<h1>Anime</h1>
-	<p>Anime is the capital of France.</p> 
-	</div>
 
-	<div id="Games" class="tabcontent">
-	<h1>Games</h1>
-	<p>Games is the capital of Japan.</p>
-	</div>
+</div>
 
-	<div id="Movies" class="tabcontent">
-	<h1>Movies</h1>
-	<p>Movies is the capital of Norway.</p>
-	</div>
-
-	<button class="tablink" onclick="openCity('Cartoons', this, '#3366ff')" id="defaultOpen">Cartoons</button>
-	<button class="tablink" onclick="openCity('Anime', this, '#33cccc')">Anime</button>
-	<button class="tablink" onclick="openCity('Games', this, '#ff5050')">Games</button>
-	<button class="tablink" onclick="openCity('Movies', this, '#33cc33')">Movies</button>
-	<script>
-	function openCity(cityName,elmnt,color) {
-	var i, tabcontent, tablinks;
-	tabcontent = document.getElementsByClassName("tabcontent");
-	for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-	}
-	tablinks = document.getElementsByClassName("tablink");
-	for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-	}
-	document.getElementById(cityName).style.display = "block";
-	elmnt.style.backgroundColor = color;
-
-	}
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
-
-		<h4></h4>
-		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
-		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
-		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
-		<div id="project1">
-			<a href="project.html">
-				<img src="images/htyd3.gif" alt="Lorem Pixel image">
-				<p>How to train your dragon 3</p>
-			</a><br><br>
-		</div>
-		<div id="project2">
-			<a href="project.html">
-				<img src="images/wir.gif" alt="Lorem Pixel image">
-				<p>Wreck it Ralph 2</p>
-			</a><br><br>
-		</div>
-		<div id="project3">
-			<a href="project.html">
-				<img src="images/sdt.gif" alt="Lorem Pixel image">
-				<p>Sekiro Die Twice</p>
-			</a><br><br>
-		</div>
-		<div id="project4">
-			<a href="project.html">
-				<img src="images/mk11.gif" alt="Lorem Pixel image">
-				<p>Mortal Kombat 11</p>
-			</a><br><br>
-		</div>
-		<div id="project5">
-			<a href="project.html">
-				<img src="images/tpnl.gif" alt="Lorem Pixel image">
-				<p>The Promised Neverland</p>
-			</a><br><br>
-		</div>
-		<div id="project6">
-			<a href="project.html">
-				<img src="images/trotsh.gif" alt="Lorem Pixel image">
-				<p>The Rising of the Shield hero</p>
-			</a><br><br>
-		</div>
-		<div id="project7">
-			<a href="project.html">
-				<img src="images/aeg.gif" alt="Lorem Pixel image">
-				<p>Avengers End Game</p>
-			</a><br><br>
-		</div>
-		<div id="project8">
-			<a href="project.html">
-				<img src="images/jw3.gif" alt="Lorem Pixel image">
-				<p>John Wick: Chapter 3 - Parabellum</p>
-			</a><br><br>
-		</div>
-	</div>
-	<div>
-		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
-		<!-- p means paragraph -->
-		<div>
-			<h1 align="center">Christian Mark Cawasa - EMC 181</h1>
-		</div>
+  <section class="content">
+  <p align="center"><a href="https://facebook.com/markcawasa" class="btn twtr" target="_b">Follow me on Facebook</a>
+  </p>
+</section>
+  
 </body>
 </html>
