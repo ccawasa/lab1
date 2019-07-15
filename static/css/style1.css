@@ -4,12 +4,12 @@ body{
   font-family: 'Nunito', sans-serif;
 }
 
-.a{color: #E7484F}
-.b{color: #F68B1D}
-.c{color: #FCED00}
-.d{color: #009E4F}
-.e{color: #00AAC3}
-.f{color:  #732982}
+.a{color: #DDA0DD}
+.b{color: #EE82EE}
+.c{color: #DA70D6}
+.d{color: #9932CC}
+.e{color: #8A2BE2}
+.f{color:  #9400D3}
 
 
 .container{
@@ -21,14 +21,20 @@ body{
 margin-right: 60px;
 
 }
+.buttonsize {
+font-size: 25px;
+}
 .text-center {
   text-align: center;
 }
 
 .rainbow{
-  background-color: #343A40;
+  color:#333;
+  border:2px solid;
+  text-decoration:none;
+  display:inline-block;
+  font-weight:600;
   border-radius: 4px;  
-  color: #fff;
   cursor: pointer;
   padding: 8px 16px;
   
@@ -38,19 +44,19 @@ margin-right: 60px;
 .Main-rainbow:hover{
    background-image:     linear-gradient(
       to right, 
-      #E7484F,
-      #E7484F 16.65%,
-      #F68B1D 16.65%,
-      #F68B1D 33.3%,
-      #FCED00 33.3%,
-      #FCED00 49.95%,
-      #009E4F 49.95%,
-      #009E4F 66.6%,
-      #00AAC3 66.6%,
-      #00AAC3 83.25%,
-      #732982 83.25%,
-      #732982 100%,
-      #E7484F 100%
+      #DDA0DD,
+      #DDA0DD 16.65%,
+      #EE82EE 16.65%,
+      #EE82EE 33.3%,
+      #DA70D6 33.3%,
+      #DA70D6 49.95%,
+      #9932CC 49.95%,
+      #9932CC 66.6%,
+      #8A2BE2 66.6%,
+      #8A2BE2 83.25%,
+      #9400D3 83.25%,
+      #9400D3 100%,
+      #DDA0DD 100%
      
      
      
