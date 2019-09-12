@@ -1,83 +1,79 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700');
-
-body{
-  font-family: 'Nunito', sans-serif;
+*
+{
+	margin: 0;
+	padding: 0;
 }
 
-.a{color: #DDA0DD}
-.b{color: #EE82EE}
-.c{color: #DA70D6}
-.d{color: #9932CC}
-.e{color: #8A2BE2}
-.f{color:  #9400D3}
-
-
-.container{
-  margin-top: 150px;
-  
+.img-banner1{
+	display: none;
+}
+.img-banner2{
+	display: none;
+}
+.img-banner3{
+	display: none;
 }
 
-.buttonspace{
-margin-right: 60px;
+.img-me1{
+	display: flex;
+	height: 607px;
+	width:100%;
 
 }
-.buttonsize {
-font-size: 25px;
-}
-.text-center {
-  text-align: center;
-}
-
-.rainbow{
-  color:#333;
-  border:2px solid;
-  text-decoration:none;
-  display:inline-block;
-  font-weight:600;
-  border-radius: 4px;  
-  cursor: pointer;
-  padding: 8px 16px;
-  
+.img-me2{
+	display: flex;
+	height: 60px;
+	width:100%;
+	
 }
 
-
-.Main-rainbow:hover{
-   background-image:     linear-gradient(
-      to right, 
-      #DDA0DD,
-      #DDA0DD 16.65%,
-      #EE82EE 16.65%,
-      #EE82EE 33.3%,
-      #DA70D6 33.3%,
-      #DA70D6 49.95%,
-      #9932CC 49.95%,
-      #9932CC 66.6%,
-      #8A2BE2 66.6%,
-      #8A2BE2 83.25%,
-      #9400D3 83.25%,
-      #9400D3 100%,
-      #DDA0DD 100%
-     
-     
-     
-    );
-  animation:slidebg 2s linear infinite;
+@media screen and (min-width: 768px){
+	.img-me1{
+	padding-left:140px;
+	width:500px;
+	height:750px;
 }
-
-
-@keyframes slidebg {
-  to {
-    background-position:20vw;
-  }
+.img-me2{
+	padding-left:140px;
+	width:500px;
+	height:70px;
+	
 }
+.img-banner1{
+	padding: 20px 0px 20px;
+	padding-left:40px;
+	display:inline;
+	height: 5%;
+	width: 30%;
+	float
+	padding-bottom: 30 px
+	float: left;
+	
+	}
+	.img-banner2{
+	padding: 20px 0px 20px;
+	display:inline;
+	height: 5%;
+	width: 30%;
+	padding-bottom: 30 px
+		
+	}
+	.img-banner3{
+	padding: 20px 0px 20px;
+	display:inline;
+	height: 5%;
+	width: 30%;
+	padding-bottom: 30 px
+	}
 
-.follow{
-  margin-top: 40px;
 }
-
-.follow a{
-  color: black;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
+@media screen and (min-width: 71000px){
+	.img-banner1{
+		padding: 40px 0px 0px 30px;
+	}
+	.img-banner2{
+		padding: 40px 0px 0px 30px;
+	}
+	.img-banner3{
+		padding: 40px 0px 0px 30px;
+ 
