@@ -2,6 +2,8 @@
 {
 	margin: 0;
 	padding: 0;
+	background-color: #424242;
+	background-size: cover;
 }
 
 .img-banner1{
@@ -28,15 +30,17 @@
 }
 
 @media screen and (min-width: 768px){
-	.img-me1{
-	display: none;
-	}
-	.img-me2{
-	display: none;
-	}
-	.img-me3{
-	display: none;
-	`	}
+.img-me1{
+	padding-left:140px;
+	width:500px;
+
+}
+.img-me2{
+	padding-left:140px;
+	width:500px;
+	height: 800px;
+	
+}
 .img-banner1{
 	padding: 20px 0px 20px;
 	padding-left:40px;
@@ -65,13 +69,34 @@
 	}
 
 }
-@media screen and (min-width: 71000px){
+@media screen and (min-width: 1000px){
+	.img-me1{
+	padding: 0px 0px 0px 680px;
+	}
+	.img-me2{
+	padding: 0px 0px 0px 680px;
+	
+	
+	}
+	.img-me3{
+	padding: 0px 0px 0px 680px;
+	
+	
+	}
+	
 	.img-banner1{
-		padding: 40px 0px 0px 30px;
+		padding: 0px 0px 0px 580px;
+		width: 200px;;
+		height: 100px;
+		
 	}
 	.img-banner2{
-		padding: 40px 0px 0px 30px;
+		padding: 0px 0px 0px 30px;
+		width: 200px;;
+		height: 100px;
 	}
 	.img-banner3{
-		padding: 40px 0px 0px 30px;
- 
+		padding: 0px 0px 0px 30px;
+		width: 200px;;
+		height: 100px;
+	} 

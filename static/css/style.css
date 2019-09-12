@@ -57,7 +57,6 @@
 	display:inline;
 	height: 5%;
 	width: 30%;
-	float
 	padding-bottom: 30 px
 	float: left;
 	
@@ -79,13 +78,20 @@
 	}
 
 }
-@media screen and (min-width: 71000px){
+@media screen and (min-width: 1080px){
 	.img-banner1{
-		padding: 40px 0px 0px 30px;
+		padding: 0px 0px 0px 580px;
+		width: 200px;;
+		height: 100px;
+		
 	}
 	.img-banner2{
-		padding: 40px 0px 0px 30px;
+		padding: 0px 0px 0px 30px;
+		width: 200px;;
+		height: 100px;
 	}
 	.img-banner3{
-		padding: 40px 0px 0px 30px;
- 
+		padding: 0px 0px 0px 30px;
+		width: 200px;;
+		height: 100px;
+	} 

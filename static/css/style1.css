@@ -2,6 +2,8 @@
 {
 	margin: 0;
 	padding: 0;
+	background-color: #424242;
+	background-size: cover;
 }
 
 .img-banner1{
@@ -31,12 +33,12 @@
 	.img-me1{
 	padding-left:140px;
 	width:500px;
-	height:750px;
+	height:800px;
 }
 .img-me2{
 	padding-left:140px;
 	width:500px;
-	height:70px;
+	
 	
 }
 .img-banner1{
@@ -67,13 +69,31 @@
 	}
 
 }
-@media screen and (min-width: 71000px){
+@media screen and (min-width: 1000px){
+	.img-me1{
+	padding: 0px 0px 0px 680px;
+	}
+	.img-me2{
+	padding: 0px 0px 0px 680px;
+	
+	
+	}
+	
 	.img-banner1{
-		padding: 40px 0px 0px 30px;
+		padding: 0px 0px 0px 580px;
+		width: 200px;;
+		height: 100px;
+		
 	}
 	.img-banner2{
-		padding: 40px 0px 0px 30px;
+		padding: 0px 0px 0px 30px;
+		width: 200px;;
+		height: 100px;
 	}
 	.img-banner3{
-		padding: 40px 0px 0px 30px;
+		padding: 0px 0px 0px 30px;
+		width: 200px;;
+		height: 100px;
+	} 
  
+	} 
